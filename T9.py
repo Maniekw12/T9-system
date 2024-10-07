@@ -30,7 +30,7 @@ class T9:
 
         if not letters_for_digits:
             return []
-################################################
+###############################################
         # Produkt kartezjański liter dla każdej cyfry (wszystkie możliwe kombinacje)
         all_combinations = product(*letters_for_digits)
 
