@@ -28,8 +28,8 @@ class Trie:
 
         ##To nie wiem czy jest w ogole potrzebne bo znajduje
         #nam cala reszte wyrazow - za duzo liter w sumie
-        for char, char_node in node.children.items():
-            self.search(char_node,prefix + char,result)
+        #for char, char_node in node.children.items():
+        #    self.search(char_node,prefix + char,result)
 
     # ta metoda bierze nam prefix i sprawdza czy znajduje
     # sie on w bazie slow - jesli tak to
