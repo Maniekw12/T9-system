@@ -25,11 +25,6 @@ class Trie:
         if node.word_end:
             result.append(prefix)
 
-        ##Tu bedzie znajdowac wszystkie wyzsze wyrazy z danym prefiksem
-        #for char, char_node in node.children.items():
-        #    self.search(char_node,prefix + char,result)
-
-
     def starts_with(self,prefix):
         curr = self.root
         for char in prefix:

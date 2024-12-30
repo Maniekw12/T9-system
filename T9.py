@@ -1,5 +1,4 @@
 import Trie
-from itertools import product
 
 class T9:
 
@@ -41,3 +40,5 @@ class T9:
         for combination in combinations:
             results.extend(self.trie.starts_with(combination))
         return list(set(results))  # Return unique predictions
+
+
