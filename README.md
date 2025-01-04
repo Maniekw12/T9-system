@@ -147,6 +147,33 @@ Interfejs użytkownika został zaimplementowany przy użyciu biblioteki `tkinter
 6. **Etykieta wyniku:**
    - Wyświetla aktualnie wybrane słowo lub komunikaty informacyjne.
 
+### Testy
+
+Poniżej znajduje się opis testów jednostkowych, które zostały zaimplementowane w celu sprawdzenia funkcjonalności klasy `T9`.
+
+### Opis testów:
+
+1. **test_find_nonexisting_word**
+   - **Opis:** Sprawdza, czy metoda `predict` zwraca pustą listę, gdy szukane słowo nie istnieje w słowniku.
+
+2. **test_find_existing_word**
+   - **Opis:** Sprawdza, czy metoda `predict` zwraca poprawne słowo na podstawie wprowadzonego ciągu cyfr.
+
+3. **test_find_existing_words**
+   - **Opis:** Weryfikuje, czy metoda `predict` zwraca wszystkie pasujące słowa dla danego ciągu cyfr.
+
+4. **test_word_appearing_multiple_times**
+   - **Opis:** Sprawdza, czy metoda `predict` zwraca unikalne słowo, które pojawia się wielokrotnie w słowniku.
+
+5. **test_words_appearing_multiple_times**
+   - **Opis:** Weryfikuje, czy metoda `predict` zwraca poprawną liczbę unikalnych słów, które pojawiają się wielokrotnie w słowniku.
+
+6. **test_empty_word**
+   - **Opis:** Sprawdza, czy metoda `predict` zwraca pustą listę, gdy wprowadzone słowo jest puste.
+
+
+### Podsumowanie
+Testy pokrywają kluczowe funkcjonalności klasy `T9`, takie jak przewidywanie słów na podstawie ciągu cyfr, obsługa przypadków brzegowych (np. brak wyników, puste wejście), a także zapewnienie, że zwracane są poprawne i unikalne słowa. Każdy test sprawdza inną funkcjonalność metody `predict`, co pozwala na kompleksowe przetestowanie działania klasy.
 
 
 
